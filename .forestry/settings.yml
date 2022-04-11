@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: foosball
+  create: all
+  match: "**/*"
+  templates:
+  - test1
 - type: heading
   label: Test1
 upload_dir: uploads
