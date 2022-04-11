@@ -1,4 +1,9 @@
 ---
 label: test1
 hide_body: true
-fields: []
+fields:
+- name: foobar1
+  type: text
+  config:
+    required: false
+  label: Foobar1
